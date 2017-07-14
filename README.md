@@ -68,8 +68,11 @@ This template need cordova or phonegap, for more information [cordova installati
 Our Magic words:
 
 ``` bash
-cordova create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
-phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
+<!-- cordova create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
+phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack -->
+
+git clone https://github.com/linglong117/cordova-template-framework7-vue-webpack-mbyte AppName
+
 ```
 
 boom! :boom: you have your brand new cordova / phonegap project with framework7 - vue 2 and webpack 2!
@@ -85,6 +88,10 @@ You just have one more command option: `-- --lr`. It starts live reload.
 
 Example usage:
 ```
+npm run cordova-platform  <!-- add plarform ios & android -->
+npm run build
+npm run dev
+
 cordova run android -- --lr
 cordova run browser -- --live-reload
 phonegap run ios -- --lr
