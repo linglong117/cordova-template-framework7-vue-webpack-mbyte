@@ -21,13 +21,16 @@
 
 ![template logo](logo.png "template logo")
 
-### Framework7 Vue Starter App Templates  
+# Framework7 Vue Starter App Templates  
 https://framework7.io/vue/templates.html#framework7-vue-webpack-cordova-app-template
 
 git clone https://github.com/nolimits4web/Framework7-Vue-Simple-Template my-app
 
+
 git clone https://github.com/nolimits4web/Framework7-Vue-Webpack-Template my-app
+
 &&
+
 $ cordova create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
 or
 $ phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
